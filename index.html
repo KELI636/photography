@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography Portfolio</title>
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  <header>
+    <h1>BAY MAX STUDIOS</h1>
+    <p>Capturing moments, one click at a time.</p>
+  </header>
+
+  <section id="intro">
+    <h2>Welcome to My Portfolio</h2>
+    <p>Photography is a way of feeling, touching, and of loving. What you have caught on film is captured forever. 
+        It remembers the little things, long after you have forgotten everything.</p>
+  </section>
+
+  <section id="favorite-photos"> <!-- Updated ID to match the CSS selector -->
+    <h2>Gallery</h2>
+    <ul>
+      <li><img src="https://hips.hearstapps.com/hmg-prod/images/champagne-beach-espiritu-santo-island-vanuatu-royalty-free-image-1655672510.jpg" alt="The Beach"></li>
+      <li><img src="https://cheekaaboo.com/cdn/shop/files/03.jpg?v=1712371013.jpg" alt="Natural Beach Sand"></li>
+      <li><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR-lDLrRlp09PJbSG_d5yM9g6Nd2G5npmE9lwW2HmK7xY8LAZ1Nj6qzbHhfIi_AvMCOePlrWB2-SLl3orhCqcLQZQjwRYEM6qqkvLXukU0.jpg" alt="The Sun set"></li>
+      <li><img src="https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg" alt="German Shepherd"></li>
+      <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3cvUdMmeOWDuCXQ2kDXW8i05zSdezFR142Q&s.jpg" alt="The Desert"></li>
+    </ul>
+  </section>
+  
+
+  <section id="biography">
+    <h2>George Keli</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgJpZB5kEwuaiIvKuf44FXq9oUaHVHo1IUsg&s.jpg" alt="A photo of me">
+    <p>Hello! I’m [George Kelly], a passionate photographer who believes that a picture is worth a thousand words. I've been capturing moments for over two years and specialize in capturing beautiful scenaries.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 George Keli. All rights reserved.</p>
+  </footer>
+</body>
+</html>
